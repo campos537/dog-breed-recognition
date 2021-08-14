@@ -16,6 +16,7 @@ Esse projeto foi desenvolvido utilizando:
 para instalar as dependencias eh recomendado seguir os passos abaixo:
 
 ```
+sudo apt-get install python3-tk
 python3.7 -m virtualenv dogs-env
 source dogs-env/bin/activate
 pip install -r requirements.txt
@@ -48,9 +49,11 @@ models/
     resnet34-dogbreed/
         epoch1.pth
         epoch2.pth
-        ....
+        ...
 ```
 
-Ao achar o melhor modelo ele ira gerar o .ONNX do mesmo para utilizacao posterior no OpenCV.
+Ao achar o melhor modelo ele ira gerar o .ONNX do mesmo para utilizacao posterior no OpenCV. Rodando o ultimo Step do notebook eh possivel escolher uma imagem e fazer a inferencia da mesma.
 
 obs: Para gerar as metricas foi utilizado o PyCM que ao final ira mostrar o resultado do melhor modelo alem de gerar um report em html mais completo (por ter muitas classes fica mais confuso de interpretar) com o nome do mesmo.
+
+### Segunda e Terceira Parte

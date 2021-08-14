@@ -9,3 +9,4 @@ onnx
 ipykernel
 torch_lr_finder
 ipywidgets
+pandas
