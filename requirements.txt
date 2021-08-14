@@ -1,0 +1,11 @@
+numpy
+torch
+opencv-python
+notebook
+matplotlib
+torchvision
+pycm
+onnx
+ipykernel
+torch_lr_finder
+ipywidgets
