@@ -2,8 +2,7 @@
 
 ## Introducao
 
-A ideia desse projeto eh mostrar uma solucao escalavel para o reconhecimento de racas de cachorro. Sendo demonstrado tambem um metodo escalavel de se adicionar novas racas sem ter um tempo custoso de re-treinamento do modelo.
-
+A ideia desse projeto eh apresentar modelos e um sistema de reconhecimento de racas de cachorros. Alem disso o projeto implementa a possibilidade de adicionar novas racas de cachorro nao vistas em tempo de treinamento.
 ## Requerimentos
 
 Esse projeto foi desenvolvido utilizando:
