@@ -55,6 +55,10 @@ coverage.xml
 *.mo
 *.pot
 
+*recognition/
+*imagens_test/
+*Shih/
+
 # Django stuff:
 *.log
 local_settings.py
