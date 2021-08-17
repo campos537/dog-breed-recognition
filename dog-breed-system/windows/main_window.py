@@ -82,7 +82,7 @@ class MainWindow:
             self.video_image_label.image = video_image
             self.video_image_label.place_configure(relx=0.40, rely=0.1)
 
-    def process_dog(self):
+    def test_class(self):
         test_class_img = self.path_text.get("1.0", END).replace("\n", "")
         if os.path.isfile(test_class_img) and threading.activeCount() < 3:
             dog_class = DogClassifier(0.6)
@@ -100,7 +100,7 @@ class MainWindow:
 
     def start_class(self):
         self.thread = Thread(
-            target=MainWindow.process_dog, kwargs={"self": self})
+            target=MainWindow.test_class, kwargs={"self": self})
         self.thread.start()
 
     def start_enroll(self):
