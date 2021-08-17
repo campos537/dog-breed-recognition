@@ -89,6 +89,8 @@ toda a configuracao de pre-processamento necessario para funcionar, um exemplo d
 ```
 ### Dog Breed System
 
+#### Python-tk interface
+
 O sistema foi criado para realizar o teste visual das etapas solicitadas, no primeiro campo de texto [Teste Imagem (Parte 1 Classificacao)] voce pode colocar a imagem de input e clicar no botao com pata de cachorro para realizar a inferencia, no segundo campo [Adicione Cachorros (Parte 2 Enroll)] voce pode passar uma pasta
 que contenha imagens de cachorros de uma raca especifica e adicionar o nome de raca clicando em adicionar, no terceiro e ultimo campo [Teste Imagem Enroll (Parte 2 Enroll)] voce pode fazer o upload de uma imagem para testar exclusivamente a parte de enroll do projeto.
 
@@ -101,3 +103,15 @@ Para rodar utilizando o Ubuntu tenha instalado todas as dependencias localizadas
 cd dog-breed-system
 python dog-breed.py
 ```
+
+#### Web App interface
+
+O sistema foi criado como exemplo de uma aplicacao web utilizando o sistema de classificacao de cachorros
+para rodar a aplicacao siga as mesmas instrucoes de configuracao acima porem rodando os comandos abaixo:
+
+```
+cd dog-breed-system
+python dog-breed-web.py
+```
+
+apos isso abra o seu navegador e digite `0.0.0.0:8080`
